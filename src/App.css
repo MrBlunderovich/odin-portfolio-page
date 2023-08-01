@@ -2,9 +2,70 @@
 :root {
   font-family: "Roboto", sans-serif;
 }
+
 * {
   box-sizing: border-box;
   font-family: inherit;
   margin: 0;
   padding: 0;
+}
+
+.light-theme {
+  --background: #fdf6e3;
+  --background-secondary: #eee8d5;
+  --text: #657b83;
+  --text-secondary: #93a1a1;
+  --text-emphasized: #586e75;
+  --accent: #268bd2;
+  --accent-secondary: #dc322f;
+  --accent-emphasized: #d33682;
+}
+
+.dark-theme {
+  --background: #002b36;
+  --background-secondary: #073642;
+  --text: #839496;
+  --text-secondary: #586e75;
+  --text-emphasized: #93a1a1;
+  --accent: #b58900;
+  --accent-secondary: #dc322f;
+  --accent-emphasized: #d33682;
+}
+
+.app-container {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+}
+
+.header {
+  position: relative;
+  border-top: 10px solid var(--accent);
+  transition: border-color 400ms ease;
+  & .icon {
+    height: 10rem;
+  }
+  & .theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    &:active {
+      scale: 0.9;
+    }
+  }
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.footer {
+  border-bottom: 10px solid var(--accent);
+  transition: border-color 400ms ease;
 }
