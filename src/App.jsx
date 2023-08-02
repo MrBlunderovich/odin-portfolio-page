@@ -1,6 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import personIcon from "./assets/person_icon.svg";
+import projects from "./assets/projects.json";
+import Card from "./components/Card/Card";
 
 export default function App() {
   const [theme, setTheme] = useState("DARK");
@@ -18,11 +20,27 @@ export default function App() {
         >
           theme
         </button>
-
-        <img className="icon" src={personIcon} alt="avatar icon" />
-        <nav className="navigation"></nav>
+        <div className="header__name-container">
+          <img src={personIcon} alt="avatar icon" />
+          <p>Maxim P</p>
+          <div className="icon-container">
+            <i className="devicon-github-original"></i>
+            <i className="devicon-linkedin-plain"></i>
+          </div>
+        </div>
       </header>
-      <main className="content">main</main>
+      <main className="content">
+        <h1 className="title">Welcome</h1>
+        <p className="decsription">
+          This page has been built as an exercise in adaptive layouts as part of{" "}
+          <em>The Odin Project</em> curriculum.
+        </p>
+        <section className="content-container">
+          {projects.map((p) => (
+            <Card key={p.id}>{p}</Card>
+          ))}
+        </section>
+      </main>
       <footer className="footer">footer</footer>
     </div>
   );
