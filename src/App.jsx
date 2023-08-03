@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import personIcon from "./assets/person_icon.svg";
 //import projects from "./assets/projects.json";
-import projects from "./projects/projects";
+import projects from "./projects";
 import Card from "./components/Card/Card";
 
 export default function App() {
