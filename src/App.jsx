@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import personIcon from "./assets/person_icon.svg";
+import catPic from "./assets/cat.jpg";
 //import projects from "./assets/projects.json";
 import projects from "./projects";
 import Card from "./components/Card/Card";
@@ -22,7 +22,7 @@ export default function App() {
           theme
         </button>
         <div className="header__name-container">
-          <img src={personIcon} alt="avatar icon" />
+          <img src={catPic} alt="avatar icon" />
           <p>Maxim P</p>
           <div className="icon-container">
             <i className="devicon-github-original"></i>
