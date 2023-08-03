@@ -1,10 +1,9 @@
 [
-    {"id":"1","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"2","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"3","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"4","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"5","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"6","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"7","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"},
-    {"id":"8","title":"project","description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae hic at neque, fugit praesentium harum. Reiciendis at ipsam delectus, voluptatibus libero facere suscipit perspiciatis, excepturi voluptate vel atque magni!"}
+    {"id":"1","title":"Battleship game","screenshot":"/screenshots/battleship.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/odin-battleship"},
+    {"id":"2","title":"Knight's travails","screenshot":"/screenshots/knights.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/odin-knights-travails"},
+    {"id":"3","title":"Weather app","screenshot":"/screenshots/weather.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/odin-weather"},
+    {"id":"4","title":"Calendar","screenshot":"/screenshots/calendar.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/calendar"},
+    {"id":"5","title":"Calendar","screenshot":"/screenshots/calendar.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/calendar"},
+    {"id":"6","title":"Calendar","screenshot":"/screenshots/calendar.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/calendar"},
+    {"id":"7","title":"Calendar","screenshot":"/screenshots/calendar.png","description":"asdgaerggstg","source":"https://github.com/MrBlunderovich/calendar"}
 ]

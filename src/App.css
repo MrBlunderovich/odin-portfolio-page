@@ -4,11 +4,13 @@
 :root {
   /* font-family: "Roboto", sans-serif; */
   font-family: "Merriweather", serif;
+  font-weight: 400;
 }
 
 * {
   box-sizing: border-box;
   font-family: inherit;
+  font-weight: inherit;
   margin: 0;
   padding: 0;
   line-height: 1.75;
@@ -120,7 +122,16 @@
 }
 
 .content-container {
-  columns: 200px;
+  align-self: stretch;
+  padding-inline: 3rem;
+
+  & .grid-container {
+    margin-inline: auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
 }
 
 .footer {

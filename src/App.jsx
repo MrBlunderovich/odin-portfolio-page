@@ -36,9 +36,11 @@ export default function App() {
           <em>The Odin Project</em> curriculum.
         </p>
         <section className="content-container">
-          {projects.map((p) => (
-            <Card key={p.id}>{p}</Card>
-          ))}
+          <div className="grid-container">
+            {projects.map((p) => (
+              <Card key={p.id}>{p}</Card>
+            ))}
+          </div>
         </section>
       </main>
       <footer className="footer">footer</footer>
