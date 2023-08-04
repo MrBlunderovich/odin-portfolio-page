@@ -34,7 +34,9 @@ export default function App() {
         <h1 className="title">Welcome</h1>
         <p className="decsription">
           This page has been built as an exercise in adaptive layouts as part of{" "}
-          <em>The Odin Project</em> curriculum.
+          <a href="https://www.theodinproject.com/">The Odin Project</a>{" "}
+          curriculum. <br />
+          Below are some examples of my other takes on TOP assignments:
         </p>
         <section className="content-container">
           <div className="grid-container">

@@ -16,6 +16,15 @@
   line-height: 1.75;
 }
 
+a,
+a:visited {
+  color: inherit;
+}
+
+a:focus {
+  outline: 1px solid var(--accent);
+}
+
 .light-theme {
   --background: #fdf6e3;
   --background-secondary: #eee8d5;
@@ -36,6 +45,10 @@
   --accent: #b58900;
   --accent-secondary: #dc322f;
   --accent-emphasized: #d33682;
+}
+
+.dark-theme main img {
+  filter: brightness(0.8);
 }
 
 .app-container {
