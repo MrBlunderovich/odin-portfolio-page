@@ -18,7 +18,7 @@ const projects = [
     source: "https://github.com/MrBlunderovich/odin-battleship",
     deployment: "https://mrblunderovich.github.io/odin-battleship/",
     description:
-      "A game with moderately intelligent algorithm for a computer player. Built in TDD style in mind.",
+      "A game with a moderately intelligent algorithm for the computer player. Built in TDD style in mind.",
   },
   {
     id: "2",

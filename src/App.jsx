@@ -1,9 +1,9 @@
 import "./App.css";
 import { useState } from "react";
 import catPic from "./assets/cat.jpg";
-//import projects from "./assets/projects.json";
 import projects from "./projects";
 import Card from "./components/Card/Card";
+import GitHubIcon from "./components/UI/GitHubIcon";
 
 export default function App() {
   const [theme, setTheme] = useState("DARK");
@@ -22,11 +22,15 @@ export default function App() {
           theme
         </button>
         <div className="header__name-container">
-          <img src={catPic} alt="avatar icon" />
+          <img src={catPic} alt="cat avatar" />
           <p>Maxim P</p>
           <div className="icon-container">
-            <i className="devicon-github-original"></i>
-            <i className="devicon-linkedin-plain"></i>
+            <a
+              href="https://github.com/MrBlunderovich/"
+              aria-label="personal github page"
+            >
+              <GitHubIcon className="icon" />
+            </a>
           </div>
         </div>
       </header>
