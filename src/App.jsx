@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import catPic from "./assets/cat.jpg";
+import katzenPic from "./assets/musik-katzen.jpg";
 import projects from "./projects";
 import Card from "./components/Card/Card";
 import GitHubIcon from "./components/UI/GitHubIcon";
@@ -50,7 +51,22 @@ export default function App() {
           </div>
         </section>
       </main>
-      <footer className="footer">footer</footer>
+      <footer className="footer">
+        <div className="address-container">
+          <h2>Contact me (not yet)</h2>
+          <address>
+            <span>
+              <span className="material-icons-outlined">phone</span>{" "}
+              555-555-5555
+            </span>
+            <span>
+              <span className="material-icons-outlined">email</span>{" "}
+              mail@email.com
+            </span>
+          </address>
+        </div>
+        <img src={katzenPic} alt="cats playing music" />
+      </footer>
     </div>
   );
 }
