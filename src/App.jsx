@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import { ThemeContext } from "./context/context";
 import { useTheme } from "./hooks/useTheme";
 import Footer from "./components/Footer/Footer";
+import Content from "./components/Content/Content";
 
 export default function App() {
   const [theme, setTheme] = useTheme();
@@ -41,7 +42,8 @@ export default function App() {
           </div>
         </div>
       </header> */}
-        <main className="content">
+        <Content />
+        {/* <main className="content">
           <h1 className="decsription">
             This page has been built as an exercise in adaptive layouts as part
             of <a href="https://www.theodinproject.com/">The Odin Project</a>{" "}
@@ -56,7 +58,7 @@ export default function App() {
               ))}
             </div>
           </section>
-        </main>
+        </main> */}
         <Footer />
         {/* <footer className="footer">
           <div className="footer-container">
