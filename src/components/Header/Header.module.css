@@ -1,0 +1,57 @@
+.header {
+  position: relative;
+  background-color: var(--background-secondary);
+  border-top: 10px solid var(--accent);
+  transition: border-color 400ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  & .theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    &:active {
+      scale: 0.9;
+    }
+  }
+}
+
+.header__name-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-areas:
+    "pic name"
+    "pic icons";
+  gap: 0.5rem 1rem;
+
+  & p {
+    align-self: end;
+    grid-area: name;
+    font-size: 1.5rem;
+    color: var(--text-emphasized);
+  }
+  & img {
+    grid-area: pic;
+    height: 7rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+  & .icon-container {
+    align-self: start;
+    grid-area: icons;
+    color: var(--accent);
+  }
+  & .icon {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    & path {
+      fill: var(--accent);
+    }
+  }
+}

@@ -62,7 +62,7 @@ a:focus {
   color: var(--text);
 }
 
-.header {
+/* .header {
   position: relative;
   background-color: var(--background-secondary);
   border-top: 10px solid var(--accent);
@@ -118,7 +118,7 @@ a:focus {
       fill: var(--accent);
     }
   }
-}
+} */
 
 .content {
   flex-grow: 1;
