@@ -17,7 +17,6 @@ export function useTheme() {
 
   useLayoutEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    console.log({ savedTheme });
 
     if (savedTheme === "LIGHT" || savedTheme === "DARK") {
       setTheme(savedTheme);
