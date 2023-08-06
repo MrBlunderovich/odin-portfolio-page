@@ -36,13 +36,12 @@ export default function App() {
         </div>
       </header>
       <main className="content">
-        <h1 className="title">Welcome</h1>
-        <h2 className="decsription">
+        <h1 className="decsription">
           This page has been built as an exercise in adaptive layouts as part of{" "}
           <a href="https://www.theodinproject.com/">The Odin Project</a>{" "}
           curriculum.
-        </h2>
-        <h3>Below are some examples of my other takes on TOP assignments:</h3>
+        </h1>
+        <h2>Below are some examples of my other takes on TOP assignments:</h2>
 
         <section className="content-container">
           <div className="grid-container">

@@ -15,7 +15,7 @@ export default function Card({ children }) {
   return (
     <article className={styles.card}>
       <div className={`${styles["heading-container"]}`}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <a href={source} aria-label="github source code">
           <GitHubIcon className={styles.icon} />
         </a>

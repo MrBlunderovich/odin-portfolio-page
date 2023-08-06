@@ -10,9 +10,10 @@
   gap: 0.5rem;
   margin-bottom: 1rem;
 
-  & h2 {
+  & h3 {
     color: var(--text-emphasized);
     margin-right: auto;
+    font-size: 1.5rem;
   }
 
   & a {
