@@ -52,20 +52,22 @@ export default function App() {
         </section>
       </main>
       <footer className="footer">
-        <div className="address-container">
-          <h2>Contact me (not yet)</h2>
-          <address>
-            <span>
-              <span className="material-icons-outlined">phone</span>{" "}
-              555-555-5555
-            </span>
-            <span>
-              <span className="material-icons-outlined">email</span>{" "}
-              mail@email.com
-            </span>
-          </address>
+        <div className="footer-container">
+          <div className="address-container">
+            <h2>Contact me (not yet)</h2>
+            <address>
+              <span>
+                <span className="material-icons-outlined">phone</span>{" "}
+                555-555-5555
+              </span>
+              <span>
+                <span className="material-icons-outlined">email</span>{" "}
+                mail@email.com
+              </span>
+            </address>
+          </div>
+          <img src={katzenPic} alt="cats playing music" />
         </div>
-        <img src={katzenPic} alt="cats playing music" />
       </footer>
     </div>
   );

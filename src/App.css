@@ -5,6 +5,7 @@
   /* font-family: "Roboto", sans-serif; */
   font-family: "Merriweather", serif;
   font-weight: 400;
+  --max-width: 1400px;
 }
 
 * {
@@ -148,7 +149,7 @@ a:focus {
 
   & .grid-container {
     margin-inline: auto;
-    max-width: 1400px;
+    max-width: var(--max-width, 1400px);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -160,8 +161,13 @@ a:focus {
   border-bottom: 10px solid var(--accent);
   transition: border-color 400ms ease;
   margin-top: 2rem;
-  display: flex;
-  flex-wrap: wrap;
+
+  & .footer-container {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--max-width, 1400px);
+  }
 
   & img {
     margin: 2rem 2rem 2rem auto;
