@@ -8,6 +8,7 @@ import GitHubIcon from "./components/UI/GitHubIcon";
 import Header from "./components/Header/Header";
 import { ThemeContext } from "./context/context";
 import { useTheme } from "./hooks/useTheme";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [theme, setTheme] = useTheme();
@@ -56,7 +57,8 @@ export default function App() {
             </div>
           </section>
         </main>
-        <footer className="footer">
+        <Footer />
+        {/* <footer className="footer">
           <div className="footer-container">
             <div className="address-container">
               <h2>Contact me (not yet)</h2>
@@ -73,7 +75,7 @@ export default function App() {
             </div>
             <img src={katzenPic} alt="cats playing music" />
           </div>
-        </footer>
+        </footer> */}
       </div>
     </ThemeContext.Provider>
   );

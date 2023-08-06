@@ -53,6 +53,10 @@ a:focus {
   filter: brightness(0.8);
 }
 
+.dark-theme footer img {
+  filter: brightness(0.8) grayscale(100%);
+}
+
 .app-container {
   min-height: 100vh;
   min-height: 100dvh;
@@ -162,7 +166,7 @@ a:focus {
   }
 }
 
-.footer {
+/* .footer {
   background-color: var(--background-secondary);
   border-bottom: 10px solid var(--accent);
   transition: border-color 400ms ease;
@@ -207,4 +211,4 @@ a:focus {
 
 .dark-theme footer img {
   filter: brightness(0.8) grayscale(100%);
-}
+} */
