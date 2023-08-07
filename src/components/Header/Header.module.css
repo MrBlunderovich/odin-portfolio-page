@@ -35,7 +35,7 @@
   display: grid;
   grid-template-areas:
     "pic name"
-    "pic icons";
+    "pic bio";
   gap: 0.5rem 1rem;
 
   & p {
@@ -51,14 +51,15 @@
     border-radius: 50%;
     filter: grayscale(100%);
   }
-  & .icon-container {
+  & .bio {
     align-self: start;
-    grid-area: icons;
-    color: var(--accent);
+    grid-area: bio;
+    color: var(----text);
+    max-width: 50ch;
   }
   & .icon {
     height: 1.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     & path {
       fill: var(--accent);
     }

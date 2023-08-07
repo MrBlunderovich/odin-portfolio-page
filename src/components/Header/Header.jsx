@@ -19,14 +19,18 @@ export default function Header() {
       </button>
       <div className={`${styles["header__name-container"]}`}>
         <img src={catPic} alt="cat avatar" />
-        <p>Felis Catus</p>
-        <div className={`${styles["icon-container"]}`}>
+        <p>
+          Felis Catus{" "}
           <a
             href="https://github.com/MrBlunderovich/"
             aria-label="personal github page"
           >
             <GitHubIcon className={styles.icon} />
           </a>
+        </p>
+        <div className={styles.bio}>
+          I am an aspiring self-taught web developer, interested in
+          visualizations and free spread of information.
         </div>
       </div>
     </header>
