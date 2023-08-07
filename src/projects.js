@@ -27,7 +27,7 @@ const projects = [
     source: "https://github.com/MrBlunderovich/odin-knights-travails",
     deployment: "https://mrblunderovich.github.io/odin-knights-travails/",
     description:
-      "A visualization of a breadth-first graph search of a short path for a chess knight.",
+      "A visualization of a breadth-first graph traversal finding a short path for a chess knight.",
   },
   {
     id: "3",

@@ -1,10 +1,5 @@
 import "./App.css";
 import { useContext } from "react";
-import catPic from "./assets/cat.jpg";
-import katzenPic from "./assets/musik-katzen.jpg";
-import projects from "./projects";
-import Card from "./components/Card/Card";
-import GitHubIcon from "./components/UI/GitHubIcon";
 import Header from "./components/Header/Header";
 import { ThemeContext } from "./context/context";
 import { useTheme } from "./hooks/useTheme";

@@ -7,17 +7,26 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 2rem;
+}
 
-  & .theme-toggle {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    &:active {
-      scale: 0.9;
-    }
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+  outline-color: var(--accent);
+
+  &:active {
+    scale: 0.9;
+    border: none;
   }
 }
 

@@ -6,7 +6,7 @@ export default function GitHubIcon({ className }) {
       viewBox="0 0 128 128"
       aria-hidden="true"
     >
-      <g fill="#181616">
+      <g fill="currentColor">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
